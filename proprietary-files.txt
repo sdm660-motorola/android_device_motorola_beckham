@@ -14,7 +14,6 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinyalsa.so
 vendor/lib/libtinycompress.so
-vendor/lib/libtinycompress_vendor.so
 vendor/lib/libunshorten.so
 
 # Audio - Soundfx
