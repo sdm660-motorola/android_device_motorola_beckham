@@ -55,6 +55,11 @@ PRODUCT_COPY_FILES += \
 $(foreach f,$(wildcard $(LOCAL_PATH)/rootdir/etc/init/hw/*.rc),\
         $(eval PRODUCT_COPY_FILES += $(f):$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/$(notdir $f)))
 
+# Kernel
+LOCAL_KERNEL := device/motorola/msm8998-common-kernel/Image_beckham.gz-dtb
+PRODUCT_COPY_FILES += \
+	$(LOCAL_KERNEL):kernel
+
 # ModService
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/whitelist_modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/whitelist_modservice.xml

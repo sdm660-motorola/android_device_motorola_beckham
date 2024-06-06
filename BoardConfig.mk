@@ -41,7 +41,6 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/c0c4000.sdhci
-TARGET_KERNEL_CONFIG := lineageos_beckham_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864 # 64 MB
