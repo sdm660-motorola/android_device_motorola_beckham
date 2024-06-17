@@ -15,7 +15,7 @@ include device/motorola/msm8998-common/BoardConfigCommon.mk
 DEVICE_PATH := device/motorola/beckham
 
 # Assertions
-TARGET_BOARD_INFO_FILE := device/motorola/beckham/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := beckham
 
 # Display
