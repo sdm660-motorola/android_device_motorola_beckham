@@ -31,4 +31,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=beckham \
     PRIVATE_BUILD_DESC="beckham-user 9 PPWS29.131-27-1-15 4d8b92 release-keys"
 
-BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-15/4d8b92:user/release-keys
+#BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-15/4d8b92:user/release-keys
