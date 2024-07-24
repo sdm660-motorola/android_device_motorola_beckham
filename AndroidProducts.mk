@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beckham.mk
+    $(LOCAL_DIR)/arrow_beckham.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_beckham-eng \
-    lineage_beckham-user \
-    lineage_beckham-userdebug
+    arrow_beckham-eng \
+    arrow_beckham-user \
+    arrow_beckham-userdebug
