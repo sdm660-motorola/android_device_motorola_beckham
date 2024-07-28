@@ -562,9 +562,10 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 
-# MotHealth
-vendor/bin/hw/motorola.hardware.health@1.0-service
-vendor/etc/init/motorola.hardware.health@1.0-service.rc
+# Moto Health - from foles QPFS30.130-15-10-20
+vendor/bin/hw/motorola.hardware.health@1.0-service|8adbb94d9d8f4b06c219042a11af1e8b44eac44b
+vendor/etc/init/motorola.hardware.health@1.0-service.rc|28f47f970593eb2c0768bd632a72f964146dcfe2
+vendor/lib64/motorola.hardware.health@1.0.so|143b16682bf95a323a2ea49077e1a7d896c5bbff
 
 # Moto Mods
 system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
