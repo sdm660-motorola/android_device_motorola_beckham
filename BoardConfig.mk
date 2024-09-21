@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2024 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -22,7 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := beckham
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_beckham_defconfig
+TARGET_KERNEL_CONFIG := aospa_beckham_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864 # 64 MB

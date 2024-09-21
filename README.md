@@ -1,4 +1,4 @@
-Copyright 2018 - The LineageOS Project
+Copyright (C) 2024 Paranoid Android
 
 Device configuration for Motorola Z3 Play (beckham)
 ==================================
