@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/beckham/device.mk)
 
 # Device identifiers
-BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-27/34b6d:user/release-keys
+#BUILD_FINGERPRINT := motorola/beckham/beckham:9/PPWS29.131-27-1-27/34b6d:user/release-keys
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := beckham
 PRODUCT_MANUFACTURER := motorola
