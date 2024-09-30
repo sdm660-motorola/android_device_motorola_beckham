@@ -15,7 +15,7 @@ include device/motorola/msm8998-common/BoardConfigCommon.mk
 DEVICE_PATH := device/motorola/beckham
 
 # Assertions
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := beckham
 
 # Display
@@ -26,7 +26,7 @@ BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/c0c4000.sdhci
 TARGET_KERNEL_CONFIG := lineageos_beckham_defconfig
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/beckham_manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/beckham_manifest.xml
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864 # 64 MB
@@ -37,8 +37,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 939524096 # 896 MB
 TARGET_HAS_NO_WLAN_STATS := true
 
 # Properties
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
