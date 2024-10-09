@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!--
  * Copyright (c) 2006, The Android Open Source Project
  *
@@ -16,8 +15,12 @@
 */
 -->
 <resources>
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height">105.0px</dimen>
-    <dimen name="status_bar_height_landscape">14.0dp</dimen>
-    <dimen name="status_bar_height_portrait">105.0px</dimen>
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">10dp</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">16dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">5dp</dimen>
 </resources>
