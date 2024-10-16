@@ -16,6 +16,12 @@
 */
 -->
 <resources>
-    <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">15dp</dimen>
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">95.0px</dimen>
+    
+    <!-- Default paddings for content around the corners. -->
+    <dimen name="rounded_corner_content_padding">4px</dimen>
+
+    <!-- Height of area above QQS where battery/time go (48dp to reduce scrolling) -->
+    <dimen name="quick_qs_offset_height">48dp</dimen>
 </resources>
