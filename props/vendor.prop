@@ -24,6 +24,9 @@ bluetooth.device.default_name=Moto Z3 Play
 # Display
 ro.hardware.vulkan=sdm660
 
+# Fastbootd
+ro.fastbootd.available=true
+
 # Mods
 sys.mod.platformsdkversion=281
 
