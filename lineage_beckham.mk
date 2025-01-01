@@ -15,5 +15,4 @@ PRODUCT_MODEL := Moto Z3 Play
 PRODUCT_NAME := lineage_beckham
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=beckham \
-    PRIVATE_BUILD_DESC="beckham-user 9 PPWS29.131-27-1-27 34b6d release-keys"
+    BuildDesc="beckham-user 9 PPWS29.131-27-1-27 34b6d release-keys" \
