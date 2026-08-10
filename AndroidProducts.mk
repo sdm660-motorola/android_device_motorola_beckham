@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beckham.mk
+    $(LOCAL_DIR)/yaap_beckham.mk
