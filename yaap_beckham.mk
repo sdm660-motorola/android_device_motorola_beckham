@@ -6,6 +6,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Device
 $(call inherit-product, device/motorola/beckham/device.mk)
 
+# Gapps
+TARGET_BUILD_GAPPS := true
+
 # Device identifiers
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := beckham
